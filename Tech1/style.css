@@ -1,0 +1,125 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1C1C1C;
+    position: relative;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+.playlist img {
+    display: flex;
+    align-items: center;
+    width:900px;
+    margin-top: 80px;
+}
+
+.container {
+    width: 270px;
+    height:250px;
+    padding:20px;
+    padding-bottom:150px;
+    background-color: #F5F5F5BF;
+    position:absolute;
+    top:155px;
+    right: 600px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.container img {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding-left: 35px;
+    position:relative;
+    margin-bottom:25px;
+}
+#taylor-img {
+    width: 150px;
+    z-index:1;
+}
+#vinyl-img {
+    width: 145px;
+    position:absolute;
+    top:20px;
+    left: 75px;
+}
+#songInfo {
+    text-align: center;
+}
+
+#songTitle {
+    font-size: 15px;
+}
+#artist {
+    font-size: 13px;
+    margin-top: 0;
+    font-weight: 100;
+}
+#musicPlayer {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+#duration {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    font-weight: 100;
+    margin-bottom: -20px;
+    color: rgb(58, 55, 55);
+}
+#musicControl {
+  
+    width: 100%;
+    margin-left: 5px;
+    height: 5px;
+    background: rgb(162, 148, 151);
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 40px 0;
+}
+
+.timeline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -50px;
+}
+
+.timeline p {
+    font-size: 10px;
+    color: #4f4343;
+}
+
+.playerControls {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: -20px;
+}
+
+.playerControls div {
+    margin: 10px;
+    color: #96385A;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+}
+
+.playerControls div:nth-child(2){
+    transform: sclae(1.5);
+    background-color: #96385A;
+    color: #fff;
+    border-radius: 50%;
+    width:70px;
+    height: 70px;
+
+    &:hover {
+        background-color: #fff;
+        color:#96385A;
+    }
+}
+
